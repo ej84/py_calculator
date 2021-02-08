@@ -15,6 +15,7 @@ coverage run -m unittest discover tests
 2.  [You need to signup for travis pro](https://travis-ci.com/)
 3.  [you need to signup for coveralls](https://coveralls.io/)
 
+Note: you will need to enable the repo on coveralls and change the readme to use the travis and coveralls links for your repo.  Remember you need to sync the repos on coveralls to see new repo.  You need to also put the coverall config in .coverall.yml
 DO NOT PAY FOR ANYTHING!  That is what the github student developer pack helps with 
 
 The student github pack gives you access to travis pro 
