@@ -1,0 +1,6 @@
+.idea
+venv
+/postgres-data/*
+htmlcov
+venv
+Calculator.egg-info
