@@ -1,5 +1,11 @@
 [![Build Status](https://travis-ci.com/kaw393939/IS218SP21_CALC.svg?branch=master)](https://travis-ci.com/kaw393939/IS218SP21_CALC)
-[![Coverage Status](https://coveralls.io/repos/github/kaw393939/is218sp21_calc/badge.svg?branch=master)](https://coveralls.io/github/kaw393939/is218sp21_calc?branch=master)python -m unittest discover tests
+[![Coverage Status](https://coveralls.io/repos/github/kaw393939/is218sp21_calc/badge.svg?branch=master)](https://coveralls.io/github/kaw393939/is218sp21_calc?branch=master)
+
+# Command to run tests without coverage
+
+python -m unittest discover tests
+
+note - "discover tests" is telling python to find the tests in the tests directory
 
 # Command to run tests with coverage
 coverage run -m unittest discover tests
