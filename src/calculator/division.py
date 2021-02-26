@@ -1,2 +1,6 @@
 def division(a, b):
-    return float(b) / float(a)
+
+    try:
+        return round(float(b) / float(a), 9)
+    except ZeroDivisionError as error:
+        print('error: zero is not divisional: ', error)
