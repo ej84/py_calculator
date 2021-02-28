@@ -54,5 +54,8 @@ class CalculatorTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.sqr_root(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
 
+    def test_zero_division_error(self):
+        self.assertRaises(ZeroDivisionError, self.calculator.dividing(0, 1))
+
     if __name__ == '__main__':
         unittest.main()
