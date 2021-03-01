@@ -3,6 +3,7 @@ def advanced_multiplication(func):
         if a == 0 or b == 0:
             print("You must enter number greater than 0")
             return
+
         return func(a, b)
 
     return inner
