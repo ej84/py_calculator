@@ -32,6 +32,7 @@ class CalculatorTestCase(unittest.TestCase):
             result = float(row['Result'])
             self.assertEqual(self.calculator.multiplying(row['Value 1'], row['Value 2']), result)
             self.assertEqual(self.calculator.result, result)
+            self.assertEqual(self.calculator.multiplying(2, 1), 2)
 
     def test_division(self):
         test_data = CsvReader("../tests/data/Unit Test Division.csv").data
